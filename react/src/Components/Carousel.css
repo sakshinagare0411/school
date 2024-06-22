@@ -1,0 +1,69 @@
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  /* Add linear gradient overlay */
+  /* background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)), url('p1.jpg') no-repeat center center; */
+  background-size: cover;
+}
+
+#carouselExampleCaptions {
+  height: 70vh;
+  background-size: cover; /*..........  */
+}
+
+.carousel-inner, .carousel-item, .carousel-item img {
+  height: 100%;
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+.carousel-inner img {
+  /* Remove redundant background declarations */
+  background: linear-gradient(rgba(2, 2, 3, 0.7), rgba(96, 97, 105, 0.7));
+}
+
+.carousel-caption span {
+  color: var(--bs-blue);
+}
+
+.carousel-caption h2 {
+  color: #ffff;
+  font-size: 42px;
+  font-weight: 600;
+  width: 80%;
+  margin: 0px auto 10px auto;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  width: 80%;
+  margin: 0px auto 20px auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 577px) {
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+
+  .carousel-caption p {
+    font-size: 13px;
+  }
+}

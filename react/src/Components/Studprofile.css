@@ -1,0 +1,170 @@
+
+.container-stud{
+  background: #f5f5f5;
+    margin-top: 20px;
+}
+.profile-card-body {
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+  }
+  .row-bordered {
+    overflow: hidden;
+}
+  .profile-photo {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    margin-right: 20px;
+    /* margin-top: 16px; */
+    margin-right: 106px;
+}
+
+.sidebar{
+  position: sticky;
+  margin-top: auto;
+}
+.profile-card-body {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.profile-photo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+  
+  .profile-details {
+    width: 100%;
+  }
+  
+  .profile-details .name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details .role {
+    font-size: 18px;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details .status {
+    font-size: 16px;
+    color: #228B22;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details .status span {
+    font-size: 14px;
+    color: #8a8a8a;
+  }
+  
+  .profile-details .subject {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details .subject .item {
+    font-size: 14px;
+    color: #9a9a9a;
+  }
+  
+  .profile-details .subject .active {
+    color: #228B22;
+  }
+  
+  .profile-details .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-details .name .item {
+    font-size: 16px;
+    color: #228B22;
+  }
+  
+  .profile-details .name .active {
+    font-size: 22px;
+    color: #4B0082;
+  }
+  
+  .tab-content .tab-pane {
+    display: none;
+  }
+  
+  .tab-content .tab-pane.active {
+    display: block;
+  }
+  
+  .tab-content .tab-pane.fade {
+    transition: opacity 0.2s;
+  }
+  
+  .tab-content .tab-pane.active.fade {
+    opacity: 1;
+  }
+  
+  .tab-content .tab-pane.fade:not(.active) {
+    opacity: 0;
+  }
+  
+  .tab-content .tab-pane.container-fluid {
+    padding: 20px;
+  }
+  
+  .time-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .card-stud{
+    background-color: rgba(255, 255, 255);
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 27px;
+    height: 100vh;
+    
+}
+  .time-table th,
+  .time-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .time-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #666;
+  }
+  
+  .time-table .highlight {
+    background-color: #d9edf7;
+    color: #337ab7;
+  }
+  
+ 
+  .time-table .special {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+.heading-info p{
+    font-size: 42px;
+    font-weight: bold;
+}
+.dropdown-menu.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}

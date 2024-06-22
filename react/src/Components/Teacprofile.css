@@ -1,0 +1,109 @@
+.teacher-profile-title {
+  font-size: 40px; 
+  color: #2f61ac; 
+  font-weight: bold; 
+}
+/* body {
+  background-image: url('images/background1.jpeg'); Replace 'your-background-image.jpg' with your image URL
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+} */
+.card {
+  background-color: rgb(255, 255, 255);
+  height: 1000px;
+}
+
+.gen h1{
+  font-size:26px ;
+}
+
+.save {
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  z-index: 2;
+}
+
+.card-body{
+  height: 348px;
+}
+
+.form-label,
+.form-control {
+  font-size: 18px; /* Increase font size for form labels and inputs */
+}
+
+.btn {
+  font-size: 18px; /* Increase font size for buttons */
+}
+
+.small {
+  font-size: 14px; /* Increase font size for small text */
+}
+
+.name-field {
+  font-size: 24px; /* Increase font size for name field */
+}
+.time-table {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  border-collapse: collapse; /* Added to collapse table borders */
+}
+
+.time-table th,
+.time-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000; /* Added border */
+}
+
+.highlight {
+  background-color: #a9a9a9;
+  color: #fff;
+}
+
+.special {
+  font-weight: bold;
+}
+.time-table-heading {
+  font-weight: bold;
+  color: #f8f7fb; /* Color change */
+}
+.time-table {
+background-color: #f0f0f0; /* Background color for the table */
+font-weight: bold;
+border-collapse: collapse; /* Added to collapse table borders */
+width: 100%; /* Set table width to 100% */
+}
+
+.time-table th,
+.time-table td {
+padding: 10px; /* Padding for cells */
+text-align: center; /* Center align text */
+border: 1px solid #000; /* Added border */
+}
+
+/* Add borders to top, right, bottom, and left of cells */
+.time-table th,
+.time-table td {
+border-top: 1px solid #000;
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+border-left: 1px solid #000;
+}
+
+.highlight {
+background-color: #a9a9a9; /* Highlight background color */
+color: #090808; /* Text color for highlighted cells */
+}
+
+.special {
+font-weight: bold; /* Font weight for special cells */
+}
+
+.time-table-heading {
+font-weight: bold; /* Font weight for table headings */
+color: #e8e8ed; /* Color change */
+}
